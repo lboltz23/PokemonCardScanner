@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Pokemon Card Scanner",
+    "slug": "pokemon-card-scanner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.pokemoncardscan.app"
+    },
+    "android": {
+      "package": "com.pokemoncardscan.app"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        { "cameraPermission": "Allow Pokémon Card Scanner to access your camera to photograph cards." }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow Pokémon Card Scanner to save scanned cards to your Photos library.",
+          "savePhotosPermission": "Allow Pokémon Card Scanner to save scanned cards to your Photos library."
+        }
+      ]
+    ]
+  }
+}
